@@ -27,7 +27,9 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-                        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar -->
+                <!-- Sidebar -->
+                <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -75,7 +77,7 @@
             </div>
 
             <li class="nav-item">
-                <a class="nav-link" href="lets_connect.html">
+                <a class="nav-link" href="our_faves.html">
                     <i class="fas fa-fw fa-wifi"></i>
                     <span>Some of Our Fave Accounts</span></a>
             </li>
@@ -90,15 +92,15 @@
                     <i class="fas fa-fw fa-key"></i>
                     <span>Get API Permissions</span></a>
             </li>
-            
+
             <li class="nav-item">
-                <a class="nav-link" href="stream_tweets.html">
+                <a class="nav-link" href="intro_to_twitter.html">
                     <i class="fas fa-fw fa-share-alt"></i>
                     <span>Stream Tweets</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="get_tweet_data.html">
+                <a class="nav-link" href="intro_to_twitter.html">
                     <i class="fas fa-fw fa-share-alt"></i>
                     <span>Get Tweet Data</span></a>
             </li>
@@ -106,73 +108,40 @@
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">       
         </ul>
+        <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
-        <div id="content-wrapper" class="d-flex flex-column">
+    <div id="content-wrapper" class="d-flex flex-column">
 
             <!-- Main Content -->
             <div id="content">
+                <h1>Waiter Analogy</h1>
+                <p>This example was taken from <a href ="https://rigor.com/blog/what-is-an-api-a-brief-intro/">this rigor blog</a>.</p>
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <br>
+                <img src = "./img/waiter.png" width="500px" height="300px"><br /><br />
+                <br>
 
-                    <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800"></h1>
-                    </div>
+                <p>
+                At a restaurant, you are handed a menu of items that you can order. You can then add specific instructions about how you want those items prepared. <br><br>
 
-                
-                    <div class="row">
+                Once you’ve made your decisions, you give your order to the waiter, saying, “I want the filet mignon, medium-rare, with a side of creamed spinach and a fully-loaded baked potato with no chives.”<br><br>
 
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Weather APIs</h6>
-                                </div>
-                                <div class="card-body">
-                                    <img src = "./img/weather.jpg" width="500px" height="300px"><br /><br />
-                                    <p>Many apps like to incorporate weather data, especially if they involve going outside (for example, a hiking app which tells you the weather so you know what to wear).</p>
-                                    <p><a href="https://openweathermap.org/">OpenWeatherMap</a> is a popular API for getting weather data, but it is just one of many.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Login with ______</h6>
-                                </div>
-                                <img src = "./img/Amazon-login.jpg" width="500px" height="300px"><br /><br />
-                                <div class="card-body">
-                                    <p>Almost all social media networks (and Amazon) offer "login with" APIs. This allows some websites to remove friction from the signup process and creates more connections with that network. </p>
-                                    <p>Login with Amazon/Google/Facebook/Twitter. Find out more about Login With Amazon <a href="https://developer.amazon.com/apps-and-games/login-with-amazon"> here.</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Travel Booking</h6>
-                                </div>
-                                <div class="card-body">
-                                    <p>Many companies which aggregate travel data to show you different options are powered by APIs.</p>
-                                    <p>The aggregating sites call travel (airline/car rentals/hotels) APIs to get information about availability and then call a different set of APIs to do the booking.</p>
-                                </div>
-                            </div>
-                        </div>
+                The waiter writes down your order and delivers it to the kitchen team, who prepares your meal to your exact specifications.<br><br>
+
+                Once your meal is prepared, the waiter picks it up from the kitchen and serves it to you at your table. You review it to make sure that you have received everything you requested – and then you eat.<br><br>
+
+                The waiter’s role in this scenario closely mirrors the role of an API in the delivery of data on the modern web. Like a waiter, an API:<br>
+
+                <ol>
+                <li>Receives a set of instructions (a request) from a source (such as an application or engineer)</li>
+                <li>Takes that request to the database</li>
+                <li>Fetches the requested data or facilitates a set of actions</li>
+                <li>Returns a response to the source</li>
+                </ol>
+                </p>
 
             </div>
-            <!-- End of Main Content -->
-
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
-
-        </div>
         <!-- End of Content Wrapper -->
 
     </div>
